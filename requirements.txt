@@ -1,4 +1,4 @@
-
+stripe
 Flask
 openai
 psycopg2-binary
