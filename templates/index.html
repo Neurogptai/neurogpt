@@ -116,5 +116,16 @@
 
     </div>
   </div>
+  <script>
+  document.addEventListener('DOMContentLoaded', function () {
+    const button = document.querySelector('.cta-btn');
+
+    button.addEventListener('touchstart', function () {
+      window.open(button.href, '_blank');
+    });
+  });
+</script>
+
 </body>
+  
 </html>
