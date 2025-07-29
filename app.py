@@ -143,7 +143,7 @@ def subscribe():
         return redirect('/login')
     checkout_session = stripe.checkout.Session.create(
         payment_method_types=['card'],
-        line_items=[{'price': 'price_1RjajVRhlxl5TYRxaox1Gl3A', 'quantity': 1}],
+        line_items=[{'price': 'price_1Rq7azDKcuQMcV3V0vVzih5L', 'quantity': 1}],
         mode='payment',
         success_url=url_for('payment_success', _external=True),
         cancel_url=url_for('payment_cancel', _external=True),
